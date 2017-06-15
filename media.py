@@ -1,5 +1,6 @@
 import webbrowser
 
+
 class Movie():
     """This a class is used to store movie information"""
 
@@ -8,8 +9,8 @@ class Movie():
 
         Args:
            title: A string of a movie title.
-           poster_image_url: A string of a URL directing to the poster of a movie.
-           trailer_youtube_url: A string of a URL directing to the trailer of a movie.
+           poster_image_url: A string of a URL of a movie poster image.
+           trailer_youtube_url: A string of a URL of a movie youtube trailer.
         """
         self.title = title
         self.poster_image_url = poster_image_url
@@ -19,4 +20,4 @@ class Movie():
         """Open a link of a movie trailer in a new tab.
         """
         webbrowser.open(self.trailer_youtube_url)
-    
+        
