@@ -8,10 +8,7 @@ Download directly from github.  Make sure that `media.py`, `entertainment_center
 Python 2.7
 
 ## Run the application
-* In `entertainment_center.py`, create instances of class Movie.  
-* And then put all the instances of class Movie you have created in a list called `movies`.
-* Call function `open_movies_page()` in module `fresh_tomatoes.py`, and pass argument `movies` into the function
-* After calling `open_movies_page()`, an HTML file will be generated, creating a website to showcase the movies in `movies` list
+Open `entertainment_center.py` by a Python IDE, and then choose "Run Module" from "Run" in menubar
 
 ## License
 The content of this repository is licensed under **MIT License**.
